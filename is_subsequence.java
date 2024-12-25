@@ -1,4 +1,4 @@
-class Solution {
+class is_subsequence {
     public boolean isSubsequence(String s, String t) {
         String check = "";
         // int count = 0;
