@@ -38,6 +38,4 @@ class add_two_numbers {
        dummyHead.next = null;
        return answer;
    }
-} {
-    
 }
