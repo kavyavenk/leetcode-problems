@@ -15,3 +15,10 @@ class smaller_numbers_than_current:
         #    nums = [8,1,2,2,3]
         #  sorted = [1,2,2,3,8]
         # smaller = [0,1,2,3,4] <- return this
+
+        # for i, num in enumerate(sort):
+        #     if num not in mapping:
+        #         mapping[num] = i
+        # for num in nums:
+        #     smaller.append(mapping[num])
+        # return smaller
