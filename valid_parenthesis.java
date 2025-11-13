@@ -1,7 +1,7 @@
 // stack implementation - optimized - O(n) time O(n) space worst case i.e. all open brackets
 import java.util.*;
 public class valid_parenthesis {
-    private boolean matching (char open, char close) {
+    private boolean ismatching (char open, char close) {
         return ((open == '{' && close == '}') || (open == '[' && close == ']') || (open == '(' && close == ')'));
     }
     public boolean isvalid (String s) {
@@ -14,7 +14,11 @@ public class valid_parenthesis {
                     return false;
                 }
                 char top = st.pop();
+                if (!ismatching(top, ch)) {
+                    return false;
+                }
             }
         }
+        return st.isEmpty();
     }
 }

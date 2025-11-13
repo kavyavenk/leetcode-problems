@@ -13,7 +13,8 @@
  *     }
  * }
  */
-class Solution {
+import java.util.*;
+class max_depth_binary_tree {
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
