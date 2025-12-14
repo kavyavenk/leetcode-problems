@@ -1,4 +1,6 @@
-class Solution {
+// Given two binary strings, return their sum (also a binary string).
+// O(max(n,m)) time and space where n and m are lengths of a and b
+class add_binary {
     public String addBinary(String a, String b) {
 
         int i = a.length() - 1;
