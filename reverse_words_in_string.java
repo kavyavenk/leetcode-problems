@@ -18,7 +18,7 @@
 // Output: "example good a"
 // Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
 
-class Solution {
+class reverse_words_in_string {
     public String reverseWords(String s) {
         s = s.trim();
         s = s + " ";
