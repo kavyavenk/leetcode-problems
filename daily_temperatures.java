@@ -9,6 +9,7 @@
 // Input: temperatures = [22,21,20]
 // Output: [0,0,0]
 
+import java.util.*;
 public class daily_temperatures {
     public int[] dailyTemperatures(int[] temperatures) {
         // STACK - pop elements until the top element is no longer less than the current element
