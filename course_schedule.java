@@ -20,6 +20,7 @@
 // 0 <= a[i], b[i] < numCourses
 // All prerequisite pairs are unique.
 
+import java.util.*;
 class course_schedule {
     // DEPTH FIRST SEARCH
     private Map<Integer, List<Integer>> preMap = new HashMap<>();
