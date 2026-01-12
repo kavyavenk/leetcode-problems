@@ -18,7 +18,6 @@ class reverse_integer {
         long rev = 0;
         int dig = 0;
         int temp = x;
-        int ct = 0;
         while (temp != 0) {
             dig = temp % 10;
             rev = rev * 10 + dig;
