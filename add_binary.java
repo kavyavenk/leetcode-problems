@@ -1,5 +1,11 @@
 // Given two binary strings, return their sum (also a binary string).
 // O(max(n,m)) time and space where n and m are lengths of a and b
+// 0110 +
+// 0011 =
+// 1001
+// 0+0=0 1+0=1 1+1=10 1+1+1=11
+// STRING BUILDER
+
 class add_binary {
     public String addBinary(String a, String b) {
 
