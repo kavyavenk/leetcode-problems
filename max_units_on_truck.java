@@ -23,6 +23,7 @@
 // 1 <= numberOfBoxesi, numberOfUnitsPerBoxi <= 1000
 // 1 <= truckSize <= 106
 
+import java.util.*;
 class max_units_on_truck {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
         Arrays.sort(boxTypes, (a,b) -> b[1] - a[1]);
