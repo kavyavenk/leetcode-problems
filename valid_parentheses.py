@@ -1,5 +1,5 @@
 # O(n) time O(n) space
-class Solution:
+class valid_parentheses:
     def isValid(self, s: str) -> bool:
         stack = []
         closeToOpen = {")" : "(", "]" : "[", "}" : "{"}
